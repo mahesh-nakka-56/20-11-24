@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application</title>
+</head>
+<body>
+    <center>
+        <img src="tsrtc.png" alt=""width=80px height="80px"<br>
+        <h1>TELANGANA  STATE ROAD TRANSPORT CORPORATION</h1>
+        <h1>GENAERAL BUS PASS APPLICATION </h1>
+    </center>
+    <form action="./response.html" method="get">
+    <fieldset>
+        <legend><b>applicant details</b></legend>
+        <table cellpading="5" cellspacing="40">
+<tr aria-colspon="30">
+    <td>
+        <label for="name*:">name*:</label>
+        <input type="text" id="name*:" maxlength="30">
+        </td>
+        <td>
+            <label for="father's name">father's name/guardian name</label>
+            <input type="text" id=" father'name">
+        </td><br>
+        <tr>
+            <td>
+                <label for="Date of Birth*:">date of birth*:</label>
+                <input type="text" id="date of birth*:" maxlength="30">
+                </td>
+                  <td>  
+                    <label for="gender">gender</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male"> male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female"> female</label>
+                  </td>
+             </tr>
+        <tr>
+            <td>
+                <label for="age as on">age is on</label>
+                <input type="checkbox" name="years" id="years">
+                <label for="years">years</label>
+                <input type="checkbox" name="months" id="months">
+                <label for="months">months</label>
+                <input type="checkbox" name="days" id="days"> 
+                <label for="days">days</label> 
+                                    </td>
+                                    <td>
+                                        <label for="Adhar Number:">Adhar Number:</label>
+                <input type="adhar number:" name="adhar number:" id="adhar number:">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="whatsapp number*">whatsapp number*</label>
+                                        <input type="whatsapp number*" name="whatsapp number*" id="adhar number:">
+                                    <td>
+                                       
+                                        <label for="email id*">email id*</label>
+                                        <input type="email id*" name="email id*" id="email id*">
+                                    </td>
+                                </tr>
+                                <tr>
+                            <td>
+                                <label for="file upload"> photo *:</label>
+                                <input type="file" name="file upload" id="file upload">
+                            </td>
+                                </tr>
+        </tr>
+</tr>
+        </table>
+        <label></label>
+    </fieldset>
+    <fieldset>
+        <legend><b>Residential Address Details</b></legend>
+        <table cellspacing="40">
+            <tr>
+                <td>
+                    <label for="address">Applicant's Address:</label>
+                    <textarea name="Applicant's Address" id="address" rows="5" cols="50" maxlength="20"></textarea>
+                </td>
+                <td>
+                    <label for="district">District * :</label>
+                    <select name="District" id="district">
+                        <option value="kakinada">kakinada</option>
+                        <option value="west godavari">west godavari</option>
+                        <option value="east godavari">east godavari</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mandal">Mandal :</label>
+                    <select name="Mandal" id="mandal">
+                        <option value="kakinada rural">kakinada rural</option>
+                        <option value="kirlampudi">kirlampudi</option>
+                        <option value="prathipadu">prathipadu</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="village">Village * :</label>
+                    <select name="Village" id="village">
+                        <option value="kakinada">kakinada</option>
+                        <option value="annavaram">annavaram</option>
+                        <option value="thuni">thuni</option>
+                    </select>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for="Pincode" >Pincode : </label>
+                    <input type="number" maxlength="6">
+                </td>
+            </tr>
+</table>
+</fieldset>
+<fieldset>
+        <legend><b>Pass type details</b></legend>
+        <table cellspacing="30">
+            <tr>
+                <td>
+                    <label for="City">City * :</label>
+                    <select name="City" id="city">
+                        <option value="kakinada">kakinada</option>
+                        <option value="annavaram">annavaram</option>
+                        <option value="tuni">tuni</option>
+                    </select>
+                    
+                </td>
+                </tr><br>
+                <tr>
+                    <td>
+                        <label for="pass">Pass Type * : </label>
+                        <select name="Pass" id="pass">
+                            <option value="---Select---">---Select---</option>
+                            <option value="online">online</option>
+                            <option value="offline">offline</option>
+                        </select>
+                    </td>
+                </tr>
+                </table>
+</fieldset>
+<fieldset>
+    <legend><b>Mode of Payment & Pass Collection</b></legend>
+    <table cellspacing="30">
+        <tr>
+            <td>
+                <label for="payment">Payment mode * : </label>
+                <select name="Payment" id="payment">
+                    <option value="">Select Payment Mode</option>
+                    <option value="Phonepe">Phonepe</option>
+                    <option value="Google pay">Gpay</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Pass mode">Pass delivery Mode * :</label>
+                <select name="Pass delivery" id="pass mode">
+                    <option value="">Select Pass Delivery Mode</option>
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="center">Center at which you want to collect Pass * :</label>
+                <select name="Center" id="center">
+                    <option value="">---Select---</option>
+                    <option value="kakinada">kakinada</option>
+                    <option value="annavaram">annavaram</option>
+                </select>
+                    
+            </td>
+        </tr>
+    </table>
+</fieldset><br>
+<center><input type="submit" value="Submit"></center>
+</form>
+</body>
+</html>
